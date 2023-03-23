@@ -1,0 +1,47 @@
+/* flexbox.css */
+.item {
+  /* display: inline-block; */
+  width: 100px;
+  /* height: 100px; */
+  background-color: orange;
+  border-radius: 25%;
+  margin: 20px;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-sm {
+  height: 50px;
+}
+
+.item-md {
+  height: 100px;
+}
+
+.item-lg {
+  height: 200px;
+}
+
+.item-xl {
+  height: 300px;
+}
+
+.container {
+  margin: auto;
+  padding: 5px;
+  min-height: 400px;
+  background-color: #a534b6;
+}
+
+.container--flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* flex-direction: row | row-reverse | column |  column-reverse; */
+  /* flex-wrap: wrap | wrap-reverse | nowrap; */
+  /* justify-content: center | space-between | space-evenly; */
+
+}
