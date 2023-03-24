@@ -7,11 +7,12 @@
   text-transform: capitalize;
   padding: 0.75rem 1rem;
   cursor: pointer;
-
   display: flex;
-  gap: 0.35rem;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 0.35rem;
+
 }
 
 .button--sm {
@@ -23,9 +24,6 @@
   font-size: 1.2rem;
   padding: 0.875rem 1.5rem;
 }
-
-
-/* button default */
 
 
 .button--default {
@@ -52,9 +50,6 @@
   background-color: var(--gray-300);
 }
 
-
-/* Button Primary */
-
 .button--primary {
   background-color: var(--primary);
   color: var(--white);
@@ -79,8 +74,6 @@
   background-color: var(--primary);
 }
 
-/* Button secondary */
-
 .button--secondary {
   background-color: var(--secondary);
   color: var(--white);
@@ -103,4 +96,16 @@
   opacity: 0.6;
   cursor: default;
   background-color: var(--secondary);
+}
+
+.contact.button{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 24px;
+gap: 8px;
+
+width: 640px;
+height: 46px;
 }
