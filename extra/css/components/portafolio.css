@@ -78,3 +78,9 @@ a.svg:after {
   width: 384px;
   height: 327px;
 }
+
+.img_port{
+  height: 256px;
+  width: 320px;
+  border-radius: 8px;
+}
