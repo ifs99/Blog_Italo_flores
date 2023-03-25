@@ -58,3 +58,72 @@
 .section-padding-xl {
   padding: 144px 0;
 }
+
+.section_port {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 16px;
+  width: 1440px;
+  height: 455px;
+  background: #F3F4F6;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.container_port{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  
+  width: 1024px;
+  height: 327px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.content_port{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1024px;
+  height: 327px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 640px;
+  height: 247px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.lcont{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 40px;
+  
+  width: 640px;
+  height: 247px;
+  flex  : none;
+  order: 0;
+  flex-grow: 0;
+}

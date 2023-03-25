@@ -61,3 +61,20 @@
   padding: 0px;
   gap: 12px;
 }
+
+a.svg {
+  position: relative;
+  display: inline-block; 
+}
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+.portfolio_img{
+  width: 384px;
+  height: 327px;
+}
